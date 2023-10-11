@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  color: #ededed;
+}
+
+.header {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  font-weight: bold;
+  
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  background: #d49d37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  color: rgb(8, 10, 10);
+}
+
+.home {
+  margin-left: 20%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 70px;
+  min-height: 100vh;
+}
+
+.home-content {
+  text-align: center;
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url("foto.jpeg") center/cover no-repeat;
+  display: inline-block;
+}
+
+/* Import Fira Sans font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
+h3 {
+  font-size: 40px;
+  font-family: 'Fira Sans', sans-serif;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 3;
+  font-weight: 600;
+}
+
+
+h2 {
+  font-size: 25px;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: 'times new roman', sans-serif;
+  text-align: left;
+  line-height: 2;
+}
+
+p{
+  text-align: justify;
+  font-family: 'times new roman', sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 15px;  
+}
+
+.cont {
+  text-align: justify;
+  font-family: 'times new roman', sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 15px; 
+  font-style: italic;
+}
+
+
+table {
+  table-layout: fixed; /* Gunakan fixed layout */
+  width: 100%; /* Lebar tabel 100% */
+}
+
+td {
+  width: 50%; /* Lebar kolom 50% (untuk dua kolom) */
+  text-align: left;
+  font-family: 'Times New Roman', sans-serif;
+  line-height: 1.5;
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.periode {
+  text-align: right; /* Ratakan ke kanan */
+  font-weight: normal; /* Hapus ketebalan huruf berat untuk kelas periode */
+  margin-right: 20px; /* Margin kanan opsional */
+  font-weight: bold;
+}
+
+.skil{
+  font-weight: normal;
+  margin-right: 20px; 
+  line-height: 1;
+}
+
+li{
+  text-align: justify;
+  font-family: 'times new roman', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px; 
+}
+
+.first-color {
+  color: rgb(59, 53, 53); /* Warna pertama */
+}
+
+.second-color {
+  color: rgb(121, 22, 22); /* Warna kedua */
+}
+
+.home, .about, .experience, .skills, .awards, .interest {
+  margin-left: 20%; 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 6rem;
+  min-height: 100vh;
+  color: black;
+}
+
+.home-content, .about-content, .experience-content, .skills-content, .awards-content, .interest {
+  text-align: left;
+  color: black;
+}
+
+
+
+.active-link {
+  color: #0ef; 
+}
